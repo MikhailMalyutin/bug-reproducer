@@ -1,0 +1,1 @@
+For reproduce https://github.com/quarkusio/quarkus/discussions/31807
