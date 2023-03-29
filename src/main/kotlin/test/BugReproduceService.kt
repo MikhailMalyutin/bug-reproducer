@@ -22,7 +22,7 @@ class FileForm {
 
     @RestForm("file")
     @PartType(MediaType.APPLICATION_OCTET_STREAM)
-    @field:Schema(type= SchemaType.STRING, description = "Input file", format = "binary")
+    @field:Schema(type= SchemaType.STRING, implementation = String::class, description = "Input file", format = "binary")
     lateinit var fileStream: File
 }
 
